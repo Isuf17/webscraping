@@ -1,1 +1,3 @@
-logs/
+webscraping/logs/
+.ruff_cache
+.env
