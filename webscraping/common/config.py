@@ -5,4 +5,4 @@ class Settings(BaseSettings):
     gemini_api_key: str
 
     class Config:
-        env_file: str = "env"
+        env_file: str = ".env"
