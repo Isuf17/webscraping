@@ -1,7 +1,7 @@
 from dependency_injector import containers, providers
-from webscraping.common.clients.httpxClient.httpxClient import HttpxClient
-from webscraping.common.clients.gemini.gemini import GeminiClient
-from webscraping.common.clients.gemini.igemini import IGeminiClient
+from webscraping.common.clients.httpx_client.httpx_client import HttpxClient
+from webscraping.common.clients.gemini_client.gemini_client import GeminiClient
+from webscraping.common.clients.gemini_client.igemini_client import IGeminiClient
 from webscraping.common.config import Settings
 
 
